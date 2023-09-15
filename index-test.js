@@ -11,7 +11,7 @@ describe("Height", () => {
     it("is less tha 40", () => {
         expect(height).toBeLessThan(40);
     });
-})
+});
 
 describe("Message", () => {
     it("gives the name and height", () => {
@@ -19,3 +19,8 @@ describe("Message", () => {
       expect(message).toInclude(height);
     });
   });
+
+
+
+
+
