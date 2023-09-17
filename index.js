@@ -1,7 +1,26 @@
-const name = "Joe";
-const height = 74;
-const message = `${name} is ${height} inches tall`;
+function say(greeting, firstName ){
+    console.log(`${greeting}, ${firstName}`);
+}
+say("Goodbay", "Junior");
 
-module.exports = { name, height, message };
+function say(greeting, firstName){
+    console.log("firstName : ", firstName);
+    console.log("greeting :", greeting);
+    console.log(`${greeting},${firstName}`);
+}
 
-console.log(message);
+function add(x,y){
+    return x + y;
+}
+console.log(add(1,2));
+
+function say(greeting, firstName){
+    return  `${greeting}, ${firstName}!`;
+}
+console.log(say("Hllo", "Didas"));
+
+function say(greeting, firstName){
+    return `${greeting}, ${firstName}!`;
+    console.log("i was called");
+
+}
