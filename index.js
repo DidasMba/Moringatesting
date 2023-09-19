@@ -1,12 +1,46 @@
-function logTwoValues(value1, value2){
-    console.log(`The two value are ${value1}, ${value2}.`);
+/* const foo = 42; // foo is a number
+const result = foo + "1"; // JavaScript coerces foo to a string, so it can be concatenated with the other operand
+console.log(result); // 421
+
+const foo = 42;
+const result = foo + "1";
+console.log(result);
+
+function testNum(){
+    let result;
+    if(a > 0)
+{
+   result = 'positive';
+} else {
+    return = 'NOT positive';
+}
+return result;
+
 }
 
-function sayHelloTo(firstName){
- console.log (`Hello, ${firstName}`);
-}
+console.log(testNum(-5));
+
+function checkvalue(a,b){
+    if(a == 1)
+    if (a == 2)
+    console.log("a is 1 and b is 2");
+else
+console.log("a is not 1");
+} 
 
 
-function sayHelloTo(firstName = "User"){
-    console.log(`Hello, ${firstName});
+
+function isDidas(Personne){
+    if (Personne === 'Dadas'){
+        return 'hi Didas'
+    }else if 
 }
+
+*/
+
+console.log(typeof 42);
+console.log(typeof 'moi');
+
+
+
+
